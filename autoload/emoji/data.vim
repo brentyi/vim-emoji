@@ -1497,8 +1497,8 @@ let s:emoji_code = {
     \ 'zero': [0x0030, 0x20e3],
     \ 'zimbabwe': [0x1f1ff, 0x1f1fc],
     \ 'zipper_mouth_face': 0x1f910,
-    \ 'zzz': 0x1f4a4
-}
+    \ 'zzz': 0x1f4a4,
+    \ }
 
 function! emoji#data#dict()
   return s:emoji_code
